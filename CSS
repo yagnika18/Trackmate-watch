@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Questrial&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* overflow: hidden; Hide scrollbars */
+    scroll-behavior: smooth;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    /* background-color: red; */
+    height: 80px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.logoname {
+    font-size: 21px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.image img {
+    height: 20px;
+    width: 20px;
+}
+
+.navbar {
+    display: flex;
+    /* padding: 30px 10px; */
+    background-color: black;
+    height: 90px;
+    gap: 500px;
+
+
+}
+
+.right {
+
+    /* background-color: blue; */
+    height: 80px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 70px;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+.faq {
+    cursor: pointer;
+}
+
+.loginimg img {
+    height: 25px;
+    width: 25px;
+
+}
+
+.login {
+    display: flex;
+    gap: 10px;
+}
+
+.bag {
+    cursor: pointer;
+}
+
+.bag img {
+    height: 25px;
+    width: 25px;
+}
+
+.loginname {
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #a238ff;
+    border: 2px solid #7e06e8;
+    color: white;
+    cursor: pointer;
+    font: 17px;
+    height: 50px;
+    width: 110px;
+    border-radius: 25px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: rgba(99, 6, 143, 0.25) 0px 50px 100px -20px, rgba(173, 6, 182, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid white;
+    box-shadow: none;
+}
+
+/* first body */
+
+
+.first {
+    align-items: center;
+    position: relative;
+    gap: 100px;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 0px;
+    background-image: linear-gradient(145deg, rgba(14, 14, 227, 0.507), rgba(238, 130, 238, 0.145), black, rgba(5, 5, 100, 0.775), rgba(118, 42, 118, 0.474), transparent, rgba(75, 100, 245, 0.516));
+
+}
+
+.leftbox {
+    margin-left: 25px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(13, 14, 45, 0.126);
+    gap: 20px;
+    font-size: 30px;
+    /* border: 2px solid blue; */
+    border-radius: 20px;
+}
+
+.rightbox {
+    /* border: 2px solid red; */
+    height: fit-content;
+
+
+}
+
+.rightbox img {
+    transform: rotate(-10deg);
+    height: 500px;
+}
+
+.para1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.xuv {
+    font-family: 'Poppins', sans-serif;
+}
+
+.para2 {
+    font-family: 'Questrial', sans-serif;
+
+}
+
+/* second */
+
+.second {
+    /* position: relative; */
+    /* display: flex; */
+    /* gap: 20px; */
+
+    background-color: rgb(35, 34, 34);
+    /* border: 2px solid red; */
+    height: 850px;
+
+
+}
+
+.l2 {
+    background: url(../Images/gymgirl.jpg) no-repeat center center /cover;
+    content: "";
+    /* z-index: -1; */
+    position: absolute;
+    height: 837px;
+    width: 1127px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* mask-image: -webkit-linear-gradient(black,blue); */
+    /* -webkit-mask-image: linear-gradient(black,blue); */
+
+
+
+
+}
+
+/* .l2 img {
+    height: 838px;
+    width: 1113px;
+    /* z-index: 1; */
+
+.oni1 {
+    display: flex;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 7px;
+    padding-left: 20px;
+
+
+}
+
+.oni2 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bolder;
+
+}
+
+.oni2 p {
+    padding-top: 10px;
+}
+
+.onimage {
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+
+
+}
+
+.oni1 img {
+    height: 60px;
+    width: 60px;
+
+}
+
+.oni1 h5 {
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.r2 {
+    /* color: aliceblue; */
+    position: absolute;
+    height: 837px;
+    width: 340px;
+    right: 0px;
+    /* margin-left: 66px; */
+    background-image: linear-gradient(45deg, rgba(158, 13, 158, 0.567), transparent, rgba(116, 111, 111, 0.515), transparent, transparent, rgba(29, 29, 169, 0.622));
+    /* z-index: -1; */
+}
+
+
+
+
+
+#upper {
+    position: absolute;
+    right: 600px;
+
+
+
+    /* margin-right:70px ; */
+    /* z-index: 2; */
+    /* margin-right:10px ; */
+    /* background: url("../Images/trackmate\ mobile.webp"); */
+}
+
+#upper img {
+
+    height: 417px;
+    width: 300px;
+    position: absolute;
+
+    margin-left: 122px;
+    padding-top: 219px;
+}
+
+
+
+/* third */
+
+/* .third{
+    background-color: rgba(21, 17, 17, 0.923);
+    background-color: tan;
+    display: flex;
+    color: white;
+    
+
+
+}
+.tl1{
+    
+    height: 700px;
+    width: 400px;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.473),rgba(66, 13, 66, 0.473));
+    
+   
+}
+
+.tf1 img{
+    height: 60px;
+    width: 60px;
+}
+.tf1{
+    display: flex;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 7px;
+}
+.tf1 h6{
+    padding-top: 25px;
+}
+.tf2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.midi {
+    position: relative;
+
+}
+.midi img{
+    position: absolute;
+    margin-right: 20px;
+    
+    
+
+}
+.tr1{
+    position: absolute;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+
+/* fourth */
+
+#four {
+    scroll-behavior: smooth;
+    /* background-image: url(../Images/horizantalline.png) no-repeat  cover; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.para4 {
+    text-align: center;
+    width: 60%;
+
+}
+
+#horline {
+    position: absolute;
+    /* position: relative; */
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    filter: invert(100%);
+    /* filter: saturate(100%); */
+    /* margin-top: 100px; */
+    /* z-index: 10; */
+}
+
+#horline img {
+    /* position: absolute; */
+    position: relative;
+    /* margin-top: 100px; */
+
+}
+
+.fwatches {
+    z-index: 100;
+}
+
+/* fifth */
+.fifth {
+    color: white;
+    background-image: url(../Images/fitness-tracker-sport-bracelet-smartwatch-technology.jpg);
+
+    background-size: cover;
+    height: 500px;
+
+    font-family: 'Questrial', sans-serif;
+    padding: 60px;
+    font-size: 1.2rem;
+    background-attachment: fixed;
+}
+
+.fivfirst {
+    padding: 2% 0;
+    /* position: relative; */
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.fifh5 {
+    padding-top: 18px;
+    /* padding: 0; */
+}
+
+.fifimg {
+    height: 60px;
+    width: 60px;
+}
+
+.fivsecond h1 {
+    padding: 20px 0px;
+
+}
+
+.fivsecond p {
+    align-content: center;
+    width: 50%;
+}
+
+/* sixth */
+.sixth {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+    /* height:950px; */
+    color: white;
+    background-color: rgb(0, 0, 0);
+    /* position: absolute; */
+    z-index: -1;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 50px 5px 0px 5px;
+    background-image: linear-gradient(110deg, rgba(14, 14, 227, 0.258), rgba(238, 130, 238, 0), rgba(65, 64, 64, 0.477), rgba(115, 4, 243, 0.308), rgb(3, 38, 43), transparent, rgba(214, 75, 245, 0.6));
+
+}
+
+.dowblack {}
+
+.dowblack img {
+    z-index: -1;
+    height: 900px;
+
+
+
+}
+
+.sixth h1 {
+
+    font-family: 'Questrial', sans-serif;
+}
+
+/* sixth lo boxes */
+.box1 {
+    background-color: rgba(0, 0, 0, 0.89);
+    height: 145px;
+    width: 350px;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: absolute;
+}
+
+.b1up {
+    display: flex;
+    flex-direction: row;
+}
+
+.b1up h2 {
+    padding: 5px;
+
+}
+
+.b1up p {
+    padding: 5px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
+
+}
+
+.blup img {
+    height: 30px;
+    width: 30px;
+}
+
+/* :root {
+    --animate-duration: 2s;
+    --animate-delay: 0.9s;
+  } */
+
+#bluetooth {
+    /* position: relative; */
+    left: 171px;
+    /* top: 30px; */
+    margin-top: 110px;
+}
+
+#wireless {
+    /* animation: slideInRight; /* referring directly to the animation's @keyframe declaration */
+    /* animation-duration: 2s;  */
+    right: 180px;
+    margin-top: 110px;
+    transition: ease-in; 
+}
+
+#water {
+    /* animation: slideInRight; referring directly to the animation's @keyframe declaration */
+    /* animation-duration: 2s; */
+    position: relative;
+    right: -305px;
+    top: -335px;
+    /* bottom:430px; */
+
+}
+
+#battery {
+    position: relative;
+
+    left: -329px;
+    top: -282px;
+    /* bottom: 230px; */
+
+}
+
+#sixb {
+    margin-top: -279px;
+    margin-bottom: 10px;
+}
+
+/* seven */
+.seven {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Questrial', sans-serif;
+    height: 800px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.892);
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10%;
+    padding: 30px 10px;
+
+}
+
+.sb1 {
+    background: url(../Images/young-guy-sleeping-bed-wearing-smart-watch-sleep-tracker_1163-5248.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    color: black;
+
+}
+
+.sb1 img {
+    padding: 10px 0px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.sb2 img {
+    padding: 10px 0px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.sb2 {
+    background: url(../Images/woman-runner-checking-heart-rate-using-smartwatch-workout-beautiful-young-woman-runner-checks-heart-rate-workout-231311347.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+
+
+}
+
+/* eight */
+.eight {
+    background-color: rgba(0, 0, 0, 0.892);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Questrial', sans-serif;
+    gap: 20px;
+}
+
+.baci img {
+    width: 1000px;
+}
+
+/* nine */
+.nine {
+    background-color: rgba(0, 0, 0, 0.892);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+.formemail {
+    width: 700px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+form {
+    position: relative;
+    margin-top: 20px;
+}
+
+.exc {
+    margin-left: 20px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+#fbtn {
+    position: relative;
+    z-index: 1;
+    margin-left: -120px;
+
+    background-color: #a238ff;
+    border: 2px solid #7e06e8;
+    color: white;
+    cursor: pointer;
+    font: 17px;
+    height: 50px;
+    width: 110px;
+    border-radius: 25px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: rgba(99, 6, 143, 0.25) 0px 50px 100px -20px, rgba(173, 6, 182, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#fbtn:hover {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    border: 2px solid white;
+    box-shadow: none;
+}
+
+.email {}
+
+form input {
+    border: 2px solid red;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Questrial', sans-serif;
+    /* font-weight: bolder; */
+    /* box-shadow: red; */
+    box-shadow: rgba(253, 2, 6, 0.484) 0px 50px 100px -20px, rgba(182, 6, 32, 0.538) 0px 30px 60px -30px, rgba(238, 8, 135, 0.555) 0px -2px 6px 0px inset;
+
+
+}
+input:hover{
+    cursor: pointer;
+}
+input:focus{
+    border: 3px solid red;
+    outline: none;
+    cursor: text;
+}
+/* ten */
+.ten {
+    height: 200px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.892), black, rgba(1, 7, 44, 0.907));
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* padding-top: 20px; */
+    align-items: center;
+    padding-top: 100px;
+
+
+
+
+}
+
+.ten a {
+    margin: 2px 20px;
+    color: white;
+}
+
+.hrline {
+    color: white;
+    width: 80%;
+    margin-top: 20px;
+
+
+}
+
+.ten h6 {
+    margin-top: 3%;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 30px;
+}
