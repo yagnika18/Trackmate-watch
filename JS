@@ -1,0 +1,14 @@
+// let horline = document.getElementById('horline');
+
+// window.addEventListener('scroll', () => {
+//     let value = window.scrollY;
+    
+
+//     horline.style.bottom= value *0.15+'px';
+//     upper.style.bottom= value * -0.15+'px';
+    
+
+
+    
+    
+// });
